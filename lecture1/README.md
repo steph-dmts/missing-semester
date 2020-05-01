@@ -1,9 +1,10 @@
+## Exercises
 1. mkdir /tmp/missing
 2. man touch // Updates file access and modification timestamps or creates an empty filee if file arg does not exist
 3. touch /tmp/missing/semester
 4. echo '#!/bin/sh
    curl --head --silent https://missing.csail.mit.edu' > /tmp/missing/semester
-5. /tmp/missing/semester # permission denied
+5. /tmp/missing/semester # permission denied  
    ls /tmp/missing
 
 ```
